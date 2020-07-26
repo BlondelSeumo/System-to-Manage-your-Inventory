@@ -1,0 +1,28 @@
+WHAT IS INVENTORY SYSTEM?
+
+Inventory Management Systems is a key instrument for businesses when tracking their inventory. Typically,
+Inventory Management Systems are used by firms that either sell a product or manufacture a product for
+purposes of accounting for all the tangible goods that allow for a sale of a finished product, or parts for
+making a product. The size and volume of a firm help dictate whether or not a firm is in need of such a
+system as they can be quite extensive and costly. Large firms that have thousands of components must have
+a system in place for the primary objective of tracking their assets.
+
+THE KEY PARTS OF THIS MANUAL ARE GOING TO SHOW YOU HOW TO:
+
+- INSTALLATION PROCESS
+- NAVIGATIONS
+- ADD NEW INFORMATION
+- EDIT EXISTING INFORMATION
+- LOG-IN TO YOUR WEBSITE
+
+INSTALLATION PRECES:
+1. Download .zip package
+2. Upload it to your server
+3. Extract the package (make sure all the folders have write permission)
+4. Database Name : create a mysql database named specome
+5. Edit .env file from specome /.env file
+6. Database username : username of the Inventory database
+7. Database password : password of the Inventory database
+8. import database specome.sql
+9. Run url via browser (http://subdomain.yourdomain.com/admin) and you will find this interface.
+10. Login User Name: admin@gmail.com, Password: pass123
