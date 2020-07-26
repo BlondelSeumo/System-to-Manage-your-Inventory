@@ -1,0 +1,39 @@
+/*===================
+====Breadcrumb=======
+===================*/
+.navbar-default {
+    margin: 0;
+}
+
+.breadcrumbs {
+    margin: 0;
+    background-color: #f7f7f7;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 12px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumbs ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.breadcrumbs ul li:after {
+    font-family: "FontAwesome";
+    content: '\f105';
+    margin: 0 4px 0 8px;
+}
+
+.breadcrumbs ul li:last-child:after {
+    display: none;
+}

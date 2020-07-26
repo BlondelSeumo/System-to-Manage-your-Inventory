@@ -1,0 +1,21 @@
+$this->comp_code = Auth::guard('admin')->user()->company_id;
+$this->user_id = Auth::guard('admin')->user()->id;
+
+
+$this->middleware(function ($request, $next) {
+
+            $this->comp_code = Auth::guard('admin')->user()->company_id;
+            $this->user_id = Auth::guard('admin')->user()->id;
+
+            return $next($request);
+        });
+
+
+ sudo php artisan clear-compiled
+ sudo composer dump-autoload
+ sudo php artisan optimize
+
+
+SELECT CONCAT("'",COLUMN_NAME,"'",',') FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'specom' AND TABLE_NAME = 'products'
+
+SELECT concat("'",COLUMN_NAME,"'",",") FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'specom' AND TABLE_NAME = 'relationships';
